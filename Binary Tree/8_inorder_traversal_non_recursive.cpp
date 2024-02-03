@@ -71,7 +71,8 @@ Step 2 : Push the address of the node pointed by ptr and make ptr point to the
          left child of the node.
 Step 3 : Repeat step 2 untill the ptr points to the bottom-most left child.
 Step 4 : If node pointed by ptr has no right child print the data of the node pointed
-         by ptr and pop the address from the stack. Finally put the address inside ptr.
+         by ptr. If stack is empty then stop algorithm otherwise pop the address from
+         the stack. Finally put the address inside ptr.
 Step 5 : Repeat step 4 until node pointed by ptr has a right child.
 Step 6 : If node pointed by ptr has a right child then print the data of the node and
          update ptr by the address of the right child of the node. Finally go to step 2.
